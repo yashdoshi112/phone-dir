@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/phone-dir",
             "outputPath": "dist/phone-dir",
             "index": "src/index.html",
             "main": "src/main.ts",
