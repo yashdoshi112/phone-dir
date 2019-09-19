@@ -7,26 +7,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+App is hosted on - https://yashdoshi112.github.io/phone-dir/
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Screenshots to demonstrate the app functioning - 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## This is the main page. Click on Add button to add a new contact
+![1](https://user-images.githubusercontent.com/13164061/65226035-ce97d880-dae3-11e9-9cc4-51280c3cb482.JPG)
 
-## Running end-to-end tests
+## Enter Name and contact number
+![2](https://user-images.githubusercontent.com/13164061/65226031-cdff4200-dae3-11e9-9008-a8ef13a63c08.JPG)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Click Add button to add the contact or press Back button to go back to main page
+![3](https://user-images.githubusercontent.com/13164061/65226032-cdff4200-dae3-11e9-9278-d1a07a2fb5b1.JPG)
 
-## Further help
+## The contact is added in the directory table. To delete a contact click delete button adjacent to it
+![4](https://user-images.githubusercontent.com/13164061/65226034-cdff4200-dae3-11e9-8470-96761ea69d98.JPG)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# phone-directory
+
+
+
+## phone-directory
 Angular UI to store contacts, add/remove contacts 
 >>>>>>> 4358a781830ecdef52e4f7a98816fdaf86fe20f2
