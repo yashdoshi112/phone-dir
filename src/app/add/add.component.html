@@ -1,0 +1,18 @@
+<h1>ADD SUBSCRIBER</h1>
+
+<button class="back" (click)=goback()>BACK</button>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmitForm()">
+    <section class="name">
+        <input class="form-control" formControlName="name" #name (keyup) = "0" type="text" placeholder="Your Name">
+    </section>
+    <section class="phone">
+        <input class="form-control" formControlName="phone" #phone (keyup) = "0" type="text" placeholder="Your Phone Number">
+    </section>
+    <section>
+        <h4>Subscriber to be added:</h4>
+        <p>Name: {{name.value}}</p>
+        <p>Phone: {{phone.value}}</p>
+    </section>
+    <button type="submit" (click)=onSubmit()>ADD</button>
+</form>

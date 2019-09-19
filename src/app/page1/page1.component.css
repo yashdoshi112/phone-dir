@@ -1,0 +1,46 @@
+td{
+    width: 300px;;
+    text-align: left;
+    font-size: 18px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 25px;
+}
+
+.add{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.delete{
+    
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    cursor: pointer;
+
+}
+
+td{
+    padding-left: 80px;
+    padding-top: 20px;
+}

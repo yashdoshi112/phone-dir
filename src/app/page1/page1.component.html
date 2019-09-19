@@ -1,0 +1,15 @@
+<h1>PHONE DIRECTORY</h1>
+
+<button class="add" (click)=goto()>ADD</button>
+
+<table>
+        <tr>
+            <td style="font: bold; color: grey; font-size: 20px;">Name</td>
+            <td style="font: bold; color: grey; font-size: 20px;">Phone</td>
+        </tr>
+        <tr *ngFor="let data of phoneData" #ival>
+            <td>{{data.name}}</td>
+            <td>{{data.phone}}</td>
+            <button class="delete" (click)="deleteItem(ival.value)">Delete</button>
+        </tr>
+</table>
