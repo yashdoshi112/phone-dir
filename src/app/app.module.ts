@@ -7,23 +7,28 @@ import { Page1Component } from './page1/page1.component';
 import { AddComponent } from './add/add.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CompService } from './comp.service';
+import { TableComponent } from './table/table.component';
+import { FormsModule } from '@angular/forms';
+import { SearchPipe } from './table/search.pipe';
 
 const appRoutes: Routes = [
-  { path: '', component: Page1Component },
-  { path: 'add', component: AddComponent },
+  { path: '', component: TableComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     Page1Component,
-    AddComponent
+    AddComponent,
+    TableComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
   ],
   providers: [CompService],
   bootstrap: [AppComponent]

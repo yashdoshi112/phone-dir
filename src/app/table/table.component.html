@@ -1,0 +1,27 @@
+<input type="text" [(ngModel)]="email" placeholder="Serach any fields"/>
+
+<div class="container">
+    <table border="1" width="70%">
+        <tr>
+          <th>No.</th>
+          <th>Id</th>
+          <th>Email</th>
+          <th></th>
+        </tr>
+        <tr *ngFor="let customer of users | customerEmailFilter:email;let i = index">
+          <th scope="row">{{i+1}}</th>
+          <td>{{customer.id}}</td>
+          <td>{{customer.email}}</td>
+          <td><button (click)="showDetails(customer)">Details</button></td>
+        </tr>
+      
+    </table>
+    <div class="details">
+        <ul *ngIf="id && emailId">
+            <li>{{id}}</li>
+            <li>{{emailId}}</li>
+        </ul>
+        <p *ngIf="!(id && emailId)">No description yet</p>
+    </div>
+</div>
+
